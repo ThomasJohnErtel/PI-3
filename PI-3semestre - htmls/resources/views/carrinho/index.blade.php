@@ -291,7 +291,7 @@ padding: 40px  ;
         <h1>Não existe produto no carrinho</h1>
 
         <div class="jesus">
-            <button type="button" class="btn btn-primary btn-lg">Ir às compras</button>
+            <a href="../home"><button type="button" class="btn btn-primary btn-lg">Ir às compras</button></a>
         </div>
 
         <h2>Os mais vendidos</h2>

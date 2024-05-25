@@ -1,13 +1,17 @@
 <?php
  
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Models\CategoriaController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProdutoController;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\CarrinhoController;
  
+Route::get('/home', [HomeController::class, 'index'])->name('home.index');
 Route::get('/produto', [ProdutoController::class, 'index'])->name('produto.index');
 Route::get('/categoria',[CategoriaController::class, 'index'])->name('categoria.index');
+Route::get('/carrinho', [CarrinhoController::class, 'index'])->name('carrinho.index');
 
 Route::get('/', function () {
     return view('welcome');
