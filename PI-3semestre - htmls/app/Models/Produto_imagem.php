@@ -12,6 +12,6 @@ class Produto_imagem extends Model
     protected $primaryKey="IMAGEM_ID";
  
     public function Produto_imagem(){
-        return $this->belongsTo(Produto::class,'PRODUTO_ID','PRODUTO_ID');
+        return $this->HasMany(Produto_imagem::class,'PRODUTO_ID','PRODUTO_ID');
     }
 }
