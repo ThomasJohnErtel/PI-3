@@ -7,11 +7,16 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProdutoController;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\CarrinhoController;
+use App\Http\Controllers\ListaController;
  
 Route::get('/home', [HomeController::class, 'index'])->name('home.index');
 Route::get('/produto', [ProdutoController::class, 'index'])->name('produto.index');
 Route::get('/categoria',[CategoriaController::class, 'index'])->name('categoria.index');
 Route::get('/carrinho', [CarrinhoController::class, 'index'])->name('carrinho.index');
+Route::get('/lista', [ListaController::class, 'index'])->name('lista.index');
+Route::get('/produto/{produto}', [ListaController::class, 'show'])->name('lista.show');
+
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -22,6 +27,7 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
+    Route::view('/carrinho', 'carrinho.index')->name('carrinho.index');
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
