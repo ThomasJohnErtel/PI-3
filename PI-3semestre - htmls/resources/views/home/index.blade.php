@@ -142,11 +142,8 @@
         .card {
             border-radius: 10px;
             margin: 20px;
-<<<<<<< HEAD
             width: 100%;
-=======
             width: 280px;
->>>>>>> 40c17b27352c2b9c9e052fc2e5978ef8190fc9bb
             /* Defina a largura desejada para os cards */
             height: 620px;
             /* Defina a altura desejada para os cards */
@@ -528,11 +525,10 @@
     </header>
     <main>
         <!--Imagem do topo da home-->
-<<<<<<< HEAD
         <img class="home-img" src="../home/home.png" alt="Aquarela Brinquedos">
-=======
+
         <img class="home-img" src="#" alt="Aquarela Brinquedos">
->>>>>>> 40c17b27352c2b9c9e052fc2e5978ef8190fc9bb
+
         <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navoptions">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -789,119 +785,12 @@
                 <div class="text-center button-disciplina button-border">
                     <h2 class="h2" id="lancamentos"><strong>Lançamentos</strong></h2>
                 </div>
-            </div>
-
-            <!--Cards-->
-            <div class="container">
-                <div class="row">
-                    <!--Card 1-->
-                    <div class="col-md-3">
-                        <div class="card" id="card1">
-                            <img src="https://brincamundo.com.br/wp-content/uploads/2023/05/barco-brinquedo-pista-carros-luz-acessorios.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Navio Lego</h5>
-                                <p class="card-text">Venha comprar, só hoje em promoção imperdível. Confira!</p>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">R$ 47,53 via pix</li>
-                                    <li class="list-group-item"><strong>R$ 49,54</strong></li>
-                                    <li class="list-group-item">Até 4x de R$ 12,24</li>
-                                </ul>
-                                <div class="card-body">
-                                    <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
-                                                <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
-                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
-                                            </svg>Adicionar ao Carrinho</button></a>
-                                    <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                                            </svg> Pagar pelo whatsapp</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Card 2-->
-                    <div class="col-md-3">
-                        <div class="card" id="card2">
-                            <img src="https://images.tcdn.com.br/img/img_prod/841280/carrinhos_de_brinquedo_pequenos_metal_5_carros_sortidos_mini_704539_1_9a235d581e320319dc350f238710a0d0.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Carrinho de Brinquedo</h5>
-                                <p class="card-text">venha comprar, so hoje em promoçao imperdiver confira.</p>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">R$ 90,53 via pix</li>
-                                    <li class="list-group-item"><strong>R$ 49,54</strong></li>
-                                    <li class="list-group-item">até 4x de R$24,24</li>
-                                </ul>
-                                <div class="card-body">
-                                    <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
-                                                <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
-                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
-                                            </svg>Adicionar ao Carrinho</button></a>
-                                    <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                                            </svg> Pagar pelo whatsapp</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card 3-->
-                    <div class="col-md-3">
-                        <div class="card" id="card3">
-                            <img src="https://ludopia.com.br/wp-content/uploads/2022/08/Brinquedo-terapeutico-brinquedo-de-apertar-banana-ludopia.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Brinquedo de aperta</h5>
-                                <p class="card-text">venha comprar, so hoje em promoçao imperdiver confira.</p>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">R$ 47,53 via pix</li>
-                                    <li class="list-group-item"><strong>R$ 49,54</strong></li>
-                                    <li class="list-group-item">até 4x de R$12,24</li>
-                                </ul>
-                                <div class="card-body">
-                                    <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
-                                                <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
-                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
-                                            </svg>Adicionar ao Carrinho</button></a>
-<<<<<<< HEAD
-                                    <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-=======
-                                    <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
->>>>>>> 40c17b27352c2b9c9e052fc2e5978ef8190fc9bb
-                                                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                                            </svg> Pagar pelo whatsapp</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Card 4-->
-                    <div class="col-md-3">
-                        <div class="card" id="card4">
-                            <img src="https://cdn.awsli.com.br/1832/1832576/produto/90422431/e18946799a.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Casa de brinquedo</h5>
-                                <p class="card-text">venha comprar, so hoje em promoçao imperdiver confira.</p>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">R$ 47,53 via pix</li>
-                                    <li class="list-group-item"><strong>R$ 49,54</strong></li>
-                                    <li class="list-group-item">até 4x de R$12,24</li>
-                                </ul>
-                                <div class="card-body">
-                                    <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
-                                                <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
-                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
-                                            </svg>Adicionar ao Carrinho</button></a>
-                                    <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                                            </svg> Pagar pelo whatsapp</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!--Cards-->
                 <div class="container">
                     <div class="row">
-                        <!--Card 5-->
+                        <!--Card 1-->
                         <div class="col-md-3">
-                            <div class="card" id="card5">
+                            <div class="card" id="card1">
                                 <img src="https://brincamundo.com.br/wp-content/uploads/2023/05/barco-brinquedo-pista-carros-luz-acessorios.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Navio Lego</h5>
@@ -924,9 +813,9 @@
                             </div>
                         </div>
 
-                        <!--Card 6-->
+                        <!--Card 2-->
                         <div class="col-md-3">
-                            <div class="card" id="card6">
+                            <div class="card" id="card2">
                                 <img src="https://images.tcdn.com.br/img/img_prod/841280/carrinhos_de_brinquedo_pequenos_metal_5_carros_sortidos_mini_704539_1_9a235d581e320319dc350f238710a0d0.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Carrinho de Brinquedo</h5>
@@ -948,9 +837,9 @@
                                 </div>
                             </div>
                         </div>
-                        <!--Card 7-->
+                        <!--Card 3-->
                         <div class="col-md-3">
-                            <div class="card" id="card7">
+                            <div class="card" id="card3">
                                 <img src="https://ludopia.com.br/wp-content/uploads/2022/08/Brinquedo-terapeutico-brinquedo-de-apertar-banana-ludopia.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Brinquedo de aperta</h5>
@@ -965,22 +854,17 @@
                                                     <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
                                                     <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
                                                 </svg>Adicionar ao Carrinho</button></a>
-<<<<<<< HEAD
-                                                <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-=======
                                         <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.2id=" destaques"48-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
->>>>>>> 40c17b27352c2b9c9e052fc2e5978ef8190fc9bb
+                                                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
                                                 </svg> Pagar pelo whatsapp</button></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!--Card 8-->
+                        <!--Card 4-->
                         <div class="col-md-3">
-                            <div class="card" id="card8">
+                            <div class="card" id="card4">
                                 <img src="https://cdn.awsli.com.br/1832/1832576/produto/90422431/e18946799a.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Casa de brinquedo</h5>
@@ -1003,7 +887,114 @@
                             </div>
                         </div>
                     </div>
+                    <div class="container">
+                        <div class="row">
+                            <!--Card 5-->
+                            <div class="col-md-3">
+                                <div class="card" id="card5">
+                                    <img src="https://brincamundo.com.br/wp-content/uploads/2023/05/barco-brinquedo-pista-carros-luz-acessorios.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Navio Lego</h5>
+                                        <p class="card-text">Venha comprar, só hoje em promoção imperdível. Confira!
+                                        </p>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">R$ 47,53 via pix</li>
+                                            <li class="list-group-item"><strong>R$ 49,54</strong></li>
+                                            <li class="list-group-item">Até 4x de R$ 12,24</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                                                        <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
+                                                        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                                                    </svg>Adicionar ao Carrinho</button></a>
+                                            <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                                                    </svg> Pagar pelo whatsapp</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Card 6-->
+                            <div class="col-md-3">
+                                <div class="card" id="card6">
+                                    <img src="https://images.tcdn.com.br/img/img_prod/841280/carrinhos_de_brinquedo_pequenos_metal_5_carros_sortidos_mini_704539_1_9a235d581e320319dc350f238710a0d0.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Carrinho de Brinquedo</h5>
+                                        <p class="card-text">venha comprar, so hoje em promoçao imperdiver confira.
+                                        </p>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">R$ 90,53 via pix</li>
+                                            <li class="list-group-item"><strong>R$ 49,54</strong></li>
+                                            <li class="list-group-item">até 4x de R$24,24</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                                                        <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
+                                                        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                                                    </svg>Adicionar ao Carrinho</button></a>
+                                            <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                                                    </svg> Pagar pelo whatsapp</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card 7-->
+                            <div class="col-md-3">
+                                <div class="card" id="card7">
+                                    <img src="https://ludopia.com.br/wp-content/uploads/2022/08/Brinquedo-terapeutico-brinquedo-de-apertar-banana-ludopia.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Brinquedo de aperta</h5>
+                                        <p class="card-text">venha comprar, so hoje em promoçao imperdiver confira.
+                                        </p>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">R$ 47,53 via pix</li>
+                                            <li class="list-group-item"><strong>R$ 49,54</strong></li>
+                                            <li class="list-group-item">até 4x de R$12,24</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                                                        <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
+                                                        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                                                    </svg>Adicionar ao Carrinho</button></a>
+                                            <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                                                    </svg> Pagar pelo whatsapp</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Card 8-->
+                            <div class="col-md-3">
+                                <div class="card" id="card8">
+                                    <img src="https://cdn.awsli.com.br/1832/1832576/produto/90422431/e18946799a.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Casa de brinquedo</h5>
+                                        <p class="card-text">venha comprar, so hoje em promoçao imperdiver confira.
+                                        </p>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">R$ 47,53 via pix</li>
+                                            <li class="list-group-item"><strong>R$ 49,54</strong></li>
+                                            <li class="list-group-item">até 4x de R$12,24</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                                                        <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
+                                                        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                                                    </svg>Adicionar ao Carrinho</button></a>
+                                            <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                                                    </svg> Pagar pelo whatsapp</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
 
                 <div class="col-md-12 buttom-area">
                     <div class="text-center button-disciplina button-border">
@@ -1121,7 +1112,8 @@
                                     <img src="https://brincamundo.com.br/wp-content/uploads/2023/05/barco-brinquedo-pista-carros-luz-acessorios.jpeg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Navio Lego</h5>
-                                        <p class="card-text">Venha comprar, só hoje em promoção imperdível. Confira!</p>
+                                        <p class="card-text">Venha comprar, só hoje em promoção imperdível. Confira!
+                                        </p>
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">R$ 47,53 via pix</li>
                                             <li class="list-group-item"><strong>R$ 49,54</strong></li>
@@ -1146,7 +1138,8 @@
                                     <img src="https://images.tcdn.com.br/img/img_prod/841280/carrinhos_de_brinquedo_pequenos_metal_5_carros_sortidos_mini_704539_1_9a235d581e320319dc350f238710a0d0.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Carrinho de Brinquedo</h5>
-                                        <p class="card-text">venha comprar, so hoje em promoçao imperdiver confira.</p>
+                                        <p class="card-text">venha comprar, so hoje em promoçao imperdiver confira.
+                                        </p>
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">R$ 90,53 via pix</li>
                                             <li class="list-group-item"><strong>R$ 49,54</strong></li>
@@ -1170,7 +1163,8 @@
                                     <img src="https://ludopia.com.br/wp-content/uploads/2022/08/Brinquedo-terapeutico-brinquedo-de-apertar-banana-ludopia.png" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Brinquedo de aperta</h5>
-                                        <p class="card-text">venha comprar, so hoje em promoçao imperdiver confira.</p>
+                                        <p class="card-text">venha comprar, so hoje em promoçao imperdiver confira.
+                                        </p>
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">R$ 47,53 via pix</li>
                                             <li class="list-group-item"><strong>R$ 49,54</strong></li>
@@ -1195,7 +1189,8 @@
                                     <img src="https://cdn.awsli.com.br/1832/1832576/produto/90422431/e18946799a.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Casa de brinquedo</h5>
-                                        <p class="card-text">venha comprar, so hoje em promoçao imperdiver confira.</p>
+                                        <p class="card-text">venha comprar, so hoje em promoçao imperdiver confira.
+                                        </p>
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">R$ 47,53 via pix</li>
                                             <li class="list-group-item"><strong>R$ 49,54</strong></li>
