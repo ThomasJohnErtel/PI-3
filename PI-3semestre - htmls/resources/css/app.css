@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.fox-logo {
+    height: 180px;
+    padding-left: 133px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.background {
+    background-color: #43ADDA;
+}
+
+body {
+    background-color: #43ADDA;
+}
+
+.texto-campo {
+    color: #F9A80C;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.confirmar {
+    background-color: #F9A80C;
+}
+
+.texto {
+    border: 2px, solid , #43ADDA;
+}
