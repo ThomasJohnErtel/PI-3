@@ -262,7 +262,7 @@
         <!--Topo do site-->
         <div class="row row-width" id="header">
             <div class="col feature-box">
-                <a href="../home/">
+                <a href="../home">
                     <svg width="56" height="60" viewBox="0 0 822 866" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="822" height="866" fill="url(#pattern0)" />
                         <defs>
@@ -291,7 +291,8 @@
                         <span class="header-text">Central de <span class="bold">Atendimento</span></span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Estamos no whatsapp! 11 9999999</a></li>
+                        <li><a class="dropdown-item" href="https://wa.me/+" target="_blank">Estamos no whatsapp! 11
+                                9999999</a></li>
                         <li><a class="dropdown-item" href="#">Email: lojafox@gmail.com</a></li>
                         <li><a class="dropdown-item" href="#">Horário de atendimento: Seg a Sex de 09h às 17h</a></li>
                     </ul>
@@ -303,14 +304,9 @@
                     <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
                 </svg>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="login-cadastro">
+                    <a class="nav-link dropdown-toggle" href="../register" class="login-cadastro">
                         <span class="header-text"><span class="bold">Entrar</span> ou <span class="bold">Cadastrar</span></span>
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Minha Conta</a></li>
-                        <li><a class="dropdown-item" href="#">Meus Pedidos</a></li>
-                        <li><a class="dropdown-item" href="#">Lista de Desejos</a></li>
-                    </ul>
                 </li>
             </div>
             <div class="col feature-box">
@@ -321,6 +317,20 @@
                 </a>
             </div>
         </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary centralize bold">
+            <div class="container-fluid" id="navbar">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav navbar-itens">
+                        <li class="nav-item navbar-itens">
+                            <a class="nav-link" href="../home">Home</a>
+                        </li>
+                        <li class="nav-item navbar-itens">
+                            <a class="nav-link" href="../lista">Lista de Produtos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
 
@@ -358,7 +368,7 @@
                                             <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
                                             <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
                                         </svg>Adicionar ao Carrinho</button></a>
-                                <a href="#" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <a href="https://wa.me/+" target="_blank" class="card-link"><button><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
                                             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
                                         </svg> Pagar pelo whatsapp</button></a>
                             </div>
