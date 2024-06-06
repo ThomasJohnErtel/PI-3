@@ -25,6 +25,10 @@
         margin-left: 0;
     }
 
+    .btn-group {
+        text-align: center;
+    }
+
     .navbar-itens {
         padding-left: 20px;
         padding-right: 20px;
@@ -36,6 +40,7 @@
     }
 
     .centralize {
+        display: flex;
         align-items: center;
         text-align: center;
         justify-content: center;
@@ -244,7 +249,8 @@
                         <span class="header-text">Central de <span class="bold">Atendimento</span></span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Estamos no whatsapp! 11 9999999</a></li>
+                        <li><a class="dropdown-item" href="https://wa.me/+" target="_blank">Estamos no whatsapp! 11
+                                9999999</a></li>
                         <li><a class="dropdown-item" href="#">Email: lojafox@gmail.com</a></li>
                         <li><a class="dropdown-item" href="#">Horário de atendimento: Seg a Sex de 09h às 17h</a></li>
                     </ul>
@@ -258,16 +264,10 @@
                         d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
                 </svg>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false" class="login-cadastro">
+                    <a class="nav-link dropdown-toggle" href="../register" class="login-cadastro">
                         <span class="header-text"><span class="bold">Entrar</span> ou <span
                                 class="bold">Cadastrar</span></span>
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Minha Conta</a></li>
-                        <li><a class="dropdown-item" href="#">Meus Pedidos</a></li>
-                        <li><a class="dropdown-item" href="#">Lista de Desejos</a></li>
-                    </ul>
                 </li>
             </div>
             <div class="col feature-box">
@@ -285,10 +285,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav navbar-itens">
                         <li class="nav-item navbar-itens">
-                            <a class="nav-link" href="../home/">Home</a>
-                        </li>
-                        <li class="nav-item navbar-itens">
-                            <a class="nav-link" href="../lista/index.blade.php">Produtos</a>
+                            <a class="nav-link" href="../home">Home</a>
                         </li>
 
                     </ul>
